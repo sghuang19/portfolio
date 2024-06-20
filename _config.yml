@@ -60,7 +60,8 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  # path: ''
+  path: 'source'  # load about page as home page
   per_page: 10
   order_by: -date
 
@@ -97,10 +98,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+marked:
+  breaks: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:sghuang19/sghuang19.git
+  repo: git@github.com:sghuang19/sghuang19.github.io.git
   branch: gh-pages
