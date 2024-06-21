@@ -3,6 +3,7 @@ title: Compiler for B-Minor 2023
 description: A compiler handwritten in C.
 date: 2023-12-07
 tag: [project, compiler, cse, system, c, pl, sde]
+permalink: compiler
 ---
 
 ## Background

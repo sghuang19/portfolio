@@ -34,7 +34,7 @@ be expected.
 ## Experience
 
 <p style="text-align: center"> {% btn
-/experience, Details of positons held, briefcase fa-fw fa-lg
+/experience, Details of positions held, briefcase fa-fw fa-lg
 %} </p>
 
 - Summer Intern (Data Analytics, Marketing) @ [enFocus](https://en-focus.org)
