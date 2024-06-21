@@ -20,7 +20,7 @@ be expected.
 ## Projects
 
 <p style="text-align: center"> {% btn
-/projects, Projects details, cogs fa-fw fa-lg
+/tags/project, Projects details, cogs fa-fw fa-lg
 %} </p>
 
 - I conducted **data analysis** and built a **dashboard** for the biggest RV

@@ -14,6 +14,8 @@
   "dependencies": {
     "hexo": "^7.0.0",
     "hexo-deployer-git": "^4.0.0",
+    "hexo-filter-emoji": "^2.2.2",
+    "hexo-fontawesome": "^2.4.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
@@ -23,6 +25,7 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-embed": "^1.0.0",
+    "hexo-tag-github-code": "^0.1.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.20.0"
   }

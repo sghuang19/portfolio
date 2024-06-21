@@ -1,5 +1,6 @@
 ---
 title: Education
+date: 2024-06-19
 toc:
   enable: false
 ---

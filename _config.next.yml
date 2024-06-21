@@ -64,10 +64,10 @@ custom_logo: #/uploads/custom-logo.png
 # See: https://creativecommons.org/about/cclicenses/
 creative_commons:
   # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
-  license: by-nc-sa
+  license: by
   # Available values: big | small
-  size: small
-  sidebar: false
+  size: big
+  sidebar: true
   post: false
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
@@ -98,13 +98,13 @@ open_graph:
 menu:
   Home: / || fa fa-home
   #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
+  tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  Projects: /projects || fa fa-cogs
+  Projects: /tags/project || fa fa-cogs
   Experience: /experience || fa fa-briefcase
   Education: /education || fa fa-graduation-cap
   Courses: https://sghuang.notion.site/e242d6a39cf74dada55828ffe7cdb83f || fa fa-book
@@ -402,9 +402,9 @@ reading_progress:
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
-  position: top
+  position: bottom
   reversed: false
-  color: "#37c6c0"
+  color: "#177CB0"
   height: 3px
 
 # Bookmark Support
@@ -641,7 +641,7 @@ motion:
     # All available transition variants: https://theme-next.js.org/animate/
     menu_item: fadeInDown
     post_block: fadeIn
-    post_header: tada
+    post_header: fadeInDown
     post_body: fadeInDown
     coll_header: fadeInLeft
     # Only for Pisces | Gemini.
@@ -650,7 +650,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: true
+  enable: false
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue
