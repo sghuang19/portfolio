@@ -1,0 +1,16 @@
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+
+ignorePaths:
+  [
+    custom-words.txt,
+    _config.yml,
+    _config.next.yml,
+    db.json,
+    package.json,
+    package-lock.json,
+    source/_data
+  ]
+dictionaries: [custom-words, python, cpp]
+dictionaryDefinitions:
+  - name: custom-words
+    path: custom-words.txt

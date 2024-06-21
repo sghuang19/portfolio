@@ -1,1 +1,4 @@
+$schema: https://json.schemastore.org/prettierrc
+
 embeddedLanguageFormatting: auto
+proseWrap: always

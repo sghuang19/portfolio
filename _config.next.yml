@@ -100,15 +100,19 @@ menu:
   #about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
-  #archives: /archives/ || fa fa-archive
+  archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
   Projects: /tags/project || fa fa-cogs
-  Experience: /experience || fa fa-briefcase
-  Education: /education || fa fa-graduation-cap
+  Experience:
+    default: /experience/ || fa fa-briefcase
+    Blewbo: blewbo
+    EnFocus: enfocus
+  Education: education || fa fa-graduation-cap
   Courses: https://sghuang.notion.site/e242d6a39cf74dada55828ffe7cdb83f || fa fa-book
   Notes: https://notes.sghuang.com || fa fa-file-pen
+  pages: page || fa fa-archive
 
 
 # Enable / Disable menu icons / item badges.
@@ -156,7 +160,7 @@ avatar:
   rotated: false
 
 # Posts / Categories / Tags in sidebar.
-site_state: false
+site_state: true
 
 # Social Links
 # Usage: `Key: permalink || icon`
