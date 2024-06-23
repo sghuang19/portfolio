@@ -11,8 +11,8 @@ description:
 ## Regular custom pages
 
 [NexT documentation](https://theme-next.js.org/docs/theme-settings/custom-pages)
-suggested creating a directory for each page, and put content in the `index.md`
-file under it:
+suggests creating a directory for each page and putting the content in the
+`index.md` file under it:
 
 ```yaml
 # _config.next.yml
@@ -20,7 +20,7 @@ menu:
   page: /page/
 ```
 
-Where the directory looks like:
+The directory structure looks like:
 
 ```txt
 .
@@ -48,12 +48,12 @@ A more elegant way to achieve the same behavior is:
     └── ...
 ```
 
-There's no need for subdirectory and `index.md`, simply put `page.md` under
+There's no need for subdirectory and `index.md`; simply put `page.md` under the
 `source` directory. The configuration in `_config.next.yml` stays the same.
 
 ## Custom pages with header tabs
 
-[NexT Docs](https://theme-next.js.org/docs/) achieved two-level header tabs
+[NexT Docs](https://theme-next.js.org/docs/) achieves a two-level header tabs
 style with the following configuration:
 
 ```yml
@@ -72,6 +72,8 @@ menu:
       ...
     ...
 ```
+
+The directory structure looks like this:
 
 ```txt
 .
@@ -92,9 +94,9 @@ menu:
 ```
 
 Apparently the authors used path of generated `.html` files in the `public`
-directory to access the tabs. The annoyance of having several subdirectories with
-only `index.md` inside arise again when we only need a single level of header
-tabs. A more elegant configuration is as follows:
+directory to access the tabs. The annoyance of having several subdirectories
+with only `index.md` inside arises again when we only need a single level of
+header tabs. A more elegant configuration is as follows:
 
 ```yml
 # _config.next.yml
@@ -106,6 +108,8 @@ menu:
     Theme Settings: theme-settings || fa fa-star
     ...
 ```
+
+The directory structure looks like this:
 
 ```txt
 .
@@ -121,5 +125,5 @@ menu:
     └── ...
 ```
 
-Note that in this scenario, both leading and trailing slashes are **NEEDED** in
+Note that in this scenario, both leading and trailing slashes are **needed** in
 the `default:` path for the header tabs to be loaded.

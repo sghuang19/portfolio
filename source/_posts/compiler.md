@@ -10,16 +10,14 @@ permalink: compiler
 
 {% fa_css %}
 
-The source code of this project can be found at [{% fa_inline github fab %}
-GitHub repo](https://github.com/sghuang19/ghuang3-compiler).
+The source code of this project can be found on
+[{% fa_inline github fab %} GitHub](https://github.com/sghuang19/ghuang3-compiler).
 
-<!-- prettier-ignore-start -->
-<!-- do not wrap/unwrap the link -->
-This course project for CSE 40243 [_Compilers and Language Design_](
-https://dthain.github.io/compilers-fa23/), offered in Fall 2023 at the
-University of Notre Dame, was taught by Prof. Douglas Thain. I also had the
-privilege of working with Dr. Thain during the summer of 2022.
-<!-- prettier-ignore-end -->
+This course project for CSE 40243
+[_Compilers and Language Design_](https://dthain.github.io/compilers-fa23/),
+offered in Fall 2023 at the University of Notre Dame, was taught by Prof.
+Douglas Thain. I also had the privilege of working with Dr. Thain during the
+summer of 2022.
 
 As a side "note", the notes I took for this course can be found [{% fa_inline
 pen fas %} here](https://notes.sghuang.com/compilers-and-language-design).
@@ -28,7 +26,8 @@ pen fas %} here](https://notes.sghuang.com/compilers-and-language-design).
 
 B-Minor is a language designed by Dr. Thain for teaching this compiler course.
 The specification of this language is tweaked slightly each year. The complete
-specs of B-Minor 2023 can be found on the [course website](https://dthain.github.io/compilers-fa23/bminor).
+specs of B-Minor 2023 can be found on the
+[course website](https://dthain.github.io/compilers-fa23/bminor).
 
 In short, it supports:
 
@@ -41,11 +40,11 @@ In short, it supports:
 {% note primary no-icon %}
 
 This language is named `B-Minor` because `C`, `C-Sharp`, `C-Major`, `C-Minor`
-and `B` are all taken, and Dr. Thain prefers minor key over major.
+and `B` are all taken, and Dr. Thain prefers minor keys over major.
 
 {% endnote %}
 
-## How I wrote it?
+## How I Wrote It
 
 - Encoder, Resolver, Typechecker, Code Generator: Handwritten in C.
 - Scanner: Implemented with RegEx and [Flex](https://github.com/westes/flex).

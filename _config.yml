@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint
+
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -45,7 +47,7 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -98,8 +100,14 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-marked:
-  breaks: false
+markdown:
+  render:
+    breaks: false
+  plugins:
+    - markdown-it-cjk-breaks
+    - markdown-it-emoji
+    - markdown-it-footnote
+    - markdown-it-mark
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

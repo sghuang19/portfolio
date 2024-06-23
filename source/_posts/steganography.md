@@ -4,7 +4,7 @@ tag: [project, python, hamming, ecc, dip]
 date: 2021-06-05
 ---
 
-<!-- cSpell:ignore stegano -->
+<!-- cSpell:words stegano -->
 
 This course project for Digital Image Processing integrates LSB steganography in
 images with Hamming Code error correction. I chose this topic because I was
