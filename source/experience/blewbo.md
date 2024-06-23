@@ -1,1 +1,3 @@
-# Market Research Engineer @ Blewbo LLC
+---
+title: Market Research Engineer @ Blewbo LLC
+---

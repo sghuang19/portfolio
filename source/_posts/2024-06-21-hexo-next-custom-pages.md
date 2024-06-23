@@ -1,11 +1,12 @@
 ---
 title:
-  "Hexo + NexT tips: simplified custom pages config that doesn't break things"
+  "Hexo + NexT Tips: Simplified Custom Pages Config that Doesn't Break Things"
 date: 2024-06-21
 tag: [blog, website, hexo, next, yaml, ssg]
 description:
   A simplified configuration for regular custom pages, and custom pages with
   single level header tabs.
+permalink: hexo-next-custom-pages/
 ---
 
 ## Regular custom pages
@@ -37,6 +38,8 @@ With this setting, both leading and trailing slashes in `_config.next/yml` are
 **optional**.
 
 A more elegant way to achieve the same behavior is:
+
+<!-- more -->
 
 ```txt
 .
@@ -124,6 +127,9 @@ The directory structure looks like this:
     │       └── ...
     └── ...
 ```
+
+{% note warning %} Suffix the path with `.html` is still needed if you want to
+keep the header on top! {% endnote %}
 
 Note that in this scenario, both leading and trailing slashes are **needed** in
 the `default:` path for the header tabs to be loaded.

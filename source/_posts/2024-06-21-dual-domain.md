@@ -1,7 +1,8 @@
 ---
-title: Dual-domain Cloudflare setup for GitHub Pages with HTTPS
+title: Dual-domain Cloudflare Setup for GitHub Pages with HTTPS
 date: 2024-06-21
 tag: [blog, website, cloudflare, network, dns]
+permalink: dual-domain/
 ---
 
 ## Background
@@ -19,6 +20,8 @@ still be accessed. The primary domain is used for
 
 [Cloudflare](https://cloudflare.com) is used as the nameserver and provides
 simple proxy features.
+
+<!-- more -->
 
 ## Desired Behaviors
 

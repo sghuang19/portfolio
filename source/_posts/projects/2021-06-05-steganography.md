@@ -1,7 +1,8 @@
 ---
-title: Image steganography with Hamming Code error correction
+title: Image Steganography with Hamming Code Error Correction
 tag: [project, python, hamming, ecc, dip]
 date: 2021-06-05
+permalink: stegano/
 ---
 
 <!-- cSpell:words stegano -->

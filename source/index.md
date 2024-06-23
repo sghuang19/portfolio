@@ -13,15 +13,15 @@ Piano Player, and a Productivity Enthusiast.
 #### WIP
 
 This site is still under construction! Broken links and missing sections are to
-be expected.
+be expected. Click [here](/todo) to know more about the progress.
 
 {% endnote %}
 
+<center>{% btn /posts, Read my posts, scroll fa-fw fa-lg %} </center>
+
 ## Projects
 
-<p style="text-align: center"> {% btn
-/tags/project, Projects details, cogs fa-fw fa-lg
-%} </p>
+<center> {% btn /tags/project, Projects details, cogs fa-fw fa-lg %} </center>
 
 - I conducted **data analysis** and built a **dashboard** for the biggest RV
   company in the world. (2024)
@@ -33,9 +33,9 @@ be expected.
 
 ## Experience
 
-<p style="text-align: center"> {% btn
+<center> {% btn
 /experience, Details of positions held, briefcase fa-fw fa-lg
-%} </p>
+%} </center>
 
 - Summer Intern (Data Analytics, Marketing) @ [enFocus](https://en-focus.org)
 - Co-Founder @ [Artlibera](https://artlibera.com)
@@ -47,10 +47,10 @@ be expected.
 
 ## Courses
 
-<p style="text-align: center"> {% btn
+<center> {% btn
 https://sghuang.notion.site/e242d6a39cf74dada55828ffe7cdb83f,
 Full list of my courses, book fa-fw fa-lg
-%} </p>
+%} </center>
 
 I love learning, even outside of campus! I’m always actively taking MOOCs in
 different areas, notably:
@@ -70,16 +70,24 @@ different areas, notably:
 {% iframe https://youtube.com/embed/UacBYgyu5uQ?start=1307 560 315 %}
 
 - **Learning**, as mentioned above.
-- **Classical Music**
-  - Favorite piece:
-    [_Rachmaninoff Piano Concerto No. 2 in C Minor, Op. 18_](https://youtube.com/playlist?list=PLr0MsaDpKsY8TXd4j4ki_ARkKVJiNm-Cd&si=X7bTxw9PgI8iwuGh),
-    click the play button in the video embedding to listen to my favorite moment
-    in this piece!
-  - Favorite composer: [Gustav Mahler](https://mahlerfoundation.org), _Das Lied
-    von der Erde_ and _Symphony No. 2 'Resurrection'_
-  - Sining (bel canto) — I sing the Tenor 1 part in
-    [Notre Dame Chorale](https://chorale.nd.edu), I'm also taking voice lessons.
-  - Piano and Guitar
+
+{% note primary no-icon %}
+
+<!-- markdownlint-disable heading-increment -->
+
+#### Classical Music
+
+- Favorite piece:
+  [_Rachmaninoff Piano Concerto No. 2 in C Minor, Op. 18_](https://youtube.com/playlist?list=PLr0MsaDpKsY8TXd4j4ki_ARkKVJiNm-Cd),
+  listen to my favorite moment in this piece in the video embedding!
+- Favorite composer: [Gustav Mahler](https://mahlerfoundation.org), _Das Lied
+  von der Erde_ and _Symphony No. 2 'Resurrection'_
+- Sining (bel canto) — I sing the Tenor 1 part in
+  [Notre Dame Chorale](https://chorale.nd.edu), I'm also taking voice lessons.
+- Piano and Guitar
+
+{% endnote %}
+
 - **Philosophy**: Plato, Aristotle, Mencius, and Wang Yangming
 - **Psychology**
 - **Productivity**, see a list of my tools at {% btn /productivity,

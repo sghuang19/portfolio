@@ -1,12 +1,13 @@
 ---
-title: Fixing external image loading issues in Hexo with the `referrer` tag
+title: Fixing External Image Loading Issues in Hexo with `referrer` Tag
 date: 2024-06-22
 tag: [hexo, web, html]
+permalink: hexo-ext-img/
 ---
 
 When migrating older posts to new website system, the images stored in my
 [Gitee](https://gitee.com) repo were not loading. Interestingly, these images
-were accessible directly through the browser. My first though was that the
+were accessible directly through the browser. My first thought was that the
 loading process was timing out since Gitee's servers are in China. However, this
 didn't make sense as the images loaded in a reasonable amount of time in
 browser.
@@ -15,6 +16,8 @@ After an unsuccessful search in English, I switched to searching in Chinese.
 This instantly led to the solution. There's a large [Hexo](https://hexo.io)
 community in China and a specific Chinese term for this type of image storage,
 "figure bed" (图床), which helped me find the solution efficiently
+
+<!-- more -->
 
 ## A Quick Solution
 

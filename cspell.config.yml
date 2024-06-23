@@ -9,8 +9,6 @@ ignorePaths:
     source/_data,
   ]
 
-import: ["@cspell/dict-ru_ru/cspell-ext.json"]
-
 dictionaries: [custom-words, en-gb, python, cpp, data-science, softwareTerms]
 dictionaryDefinitions:
   - name: custom-words

@@ -97,6 +97,7 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   Home: / || fa fa-home
+  Posts: posts || fa fa-signs-post
   #about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
@@ -107,8 +108,8 @@ menu:
   Projects: /tags/project || fa fa-cogs
   Experience:
     default: /experience/ || fa fa-briefcase
-    Blewbo: blewbo
-    EnFocus: enfocus
+    EnFocus (2024): enfocus.html
+    Blewbo (2023): blewbo.html
   Education: education || fa fa-graduation-cap
   Courses: https://sghuang.notion.site/e242d6a39cf74dada55828ffe7cdb83f || fa fa-book
   Notes: https://notes.sghuang.com || fa fa-file-pen
@@ -117,7 +118,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 
 # ---------------------------------------------------------------
@@ -484,7 +485,7 @@ font:
 
 # If true, site-subtitle will be added to the title of index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
+index_with_subtitle: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: false
