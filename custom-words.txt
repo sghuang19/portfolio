@@ -4,11 +4,37 @@ sghuang
 sghuang19
 feiyue
 guanchao
+Artlibera
+kommunium
 
 # site
 
 ghcode
 endcode
+pangu
+hexojs
+mathjax
+prismjs
+koharu
+hijiki
+issnan
+styl
+urlname
+
+# latex
+
+pmatrix
+mathbf
+dxdy
+dydx
+mathop
+boldsymbol
+vmatrix
+overrightharpoon
+mathscr
+bmatrix
+textbf
+mathbb
 
 # general
 
@@ -26,3 +52,14 @@ Artlibera
 Erde
 Yangming
 Verilog
+CCCP
+Gitee
+yolo
+Ryzen
+GDDR
+Millikin
+Typora
+Bilibili
+CSDN
+pandoc
+ndarray

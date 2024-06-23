@@ -1,0 +1,5 @@
+_config*.yml
+scaffolds/draft.md
+scaffolds/page.md
+scaffolds/post.md
+source/_posts/hello-world.md

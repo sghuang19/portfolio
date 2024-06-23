@@ -1,3 +1,5 @@
 $schema: https://github.com/DavidAnson/markdownlint-cli2/blob/main/schema/markdownlint-cli2-config-schema.json
 
 gitignore: true
+ignores:
+  - source/_posts/hello-world.md
