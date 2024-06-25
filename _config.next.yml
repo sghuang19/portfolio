@@ -170,7 +170,7 @@ social:
   GitHub: https://github.com/sghuang19 || fab fa-github
   E-Mail: mailto:samuel.g.huang@outlook.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
-  Twitter: https://twitter.com/SamuelGHuang || fab fa-twitter
+  X: https://twitter.com/SamuelGHuang || fab fa-x-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
@@ -178,6 +178,7 @@ social:
   #Skype: skype:yourname?call|chat || fab fa-skype
   LinkedIn: https://www.linkedin.com/in/samuel-g-huang/ || fab fa-linkedin
   Calendly: https://calendly.com/sghuang || fa fa-calendar
+  微信: / || fab fa-weixin
 
 social_icons:
   enable: true
@@ -293,15 +294,17 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/username || fab fa-twitter
+  X: https://x.com/SamuelGHuang || fab fa-x-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.png || fab fa-weixin
+  LinkedIn: https://linkedin.com/in/samuel-g-huang/ || fab fa-linkedin
+  微信公众号: /images/wechat-channel.png || fab fa-weixin
+  知乎: https://zhihu.com/people/hailkiwi || fab fa-zhihu
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
 related_posts:
-  enable: false
+  enable: true
   icon: fa fa-signs-post
 
 # Post edit
@@ -385,7 +388,7 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
     style:
   # Fold code block
@@ -396,9 +399,9 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:

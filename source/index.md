@@ -8,7 +8,7 @@ toc:
 I'm a Software Engineer, Project Manager, and an Entrepreneur. I'm also a Tenor,
 Piano Player, and a Productivity Enthusiast.
 
-{% note warning %}
+{% note danger %}
 
 #### WIP
 

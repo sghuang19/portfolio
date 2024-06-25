@@ -1,6 +1,5 @@
 $schema: https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json
 
-no-bare-urls: false
 no-inline-html: false
 first-line-h1: false
 line-length:
@@ -9,3 +8,6 @@ line-length:
 no-duplicate-heading:
   siblings_only: true
 no-blanks-blockquote: false
+no-hard-tabs:
+  code_blocks: true
+  spaces_per_tab: 4
