@@ -1,6 +1,6 @@
 ---
 date: 2022-01-02
-title: 180nm Differential Input Single-Ended Output OpAmp Design
+title: 180nm CMOS Differential Input Single-Ended Output OpAmp Design
 tags: [project, analog, electronics]
 ---
 

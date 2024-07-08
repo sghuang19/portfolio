@@ -109,6 +109,8 @@ markdown:
     - markdown-it-footnote
     - markdown-it-mark
     - markdown-it-task-lists
+alias:
+  /projects: /tags/project
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
