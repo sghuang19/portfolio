@@ -22,6 +22,8 @@ summer of 2022.
 As a side "note", the notes I took for this course can be found [{% fa_inline
 pen fas %} here](https://notes.sghuang.com/compilers-and-language-design).
 
+<!-- more -->
+
 ## Specification
 
 B-Minor is a language designed by Dr. Thain for teaching this compiler course.

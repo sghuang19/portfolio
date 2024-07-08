@@ -64,3 +64,5 @@ CSDN
 pandoc
 ndarray
 leetcode
+cctools
+Quartus
