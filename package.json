@@ -6,15 +6,15 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server --config _config.yml,dev.yml"
   },
   "hexo": {
     "version": "7.3.0"
   },
   "dependencies": {
     "hexo": "^7.3.0",
-    "hexo-autotitle": "^1.0.1",
     "hexo-deployer-git": "^4.0.0",
+    "hexo-filter-nofollow": "^2.0.2",
     "hexo-fontawesome": "^2.4.0",
     "hexo-generator-alias": "^1.0.0",
     "hexo-generator-archive": "^2.0.0",

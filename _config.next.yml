@@ -108,11 +108,15 @@ menu:
   Projects: /tags/project || fa fa-cogs
   Experience:
     default: /experience/ || fa fa-briefcase
-    EnFocus (2024): enfocus.html
+    Kinga (2024): kinga.html
+    enFocus (2024): enfocus.html
+    Medouo (2024): medouo.html
     Blewbo (2023): blewbo.html
+    CCL (2022): ccl.html
   Education: education || fa fa-graduation-cap
   Courses: https://sghuang.notion.site/e242d6a39cf74dada55828ffe7cdb83f || fa fa-book
   Notes: https://notes.sghuang.com || fa fa-file-pen
+  Productivity: /productivity || fa fa-tasks
 
 
 # Enable / Disable menu icons / item badges.
@@ -416,12 +420,12 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: false
+  enable: true
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: auto
+  save: manual
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
@@ -657,14 +661,14 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: false
+  enable: true
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue
   # All available themes:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
+  theme: bounce
 
 # Generate a ribbon in your website with HTML5 canvas.
 # For more information: https://github.com/hustcc/ribbon.js
@@ -770,10 +774,12 @@ isso: # <data_isso>
 
 # AddToAny Share. See: https://www.addtoany.com
 addtoany:
-  enable: false
+  enable: true
   buttons:
     - facebook
     - twitter
+    - wechat
+    - linkedin
 
 
 # ---------------------------------------------------------------
@@ -784,7 +790,7 @@ addtoany:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: G-7CX9Z2HSTT
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
@@ -801,7 +807,7 @@ growingio_analytics: # <project_id>
 
 # Cloudflare Web Analytics
 # See: https://www.cloudflare.com/web-analytics/
-cloudflare_analytics:
+cloudflare_analytics: 19f94d1a06364422be148d678f5d014a
 
 # Microsoft Clarity Analytics
 # See: https://clarity.microsoft.com/
@@ -854,7 +860,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true

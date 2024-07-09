@@ -7,6 +7,7 @@ ignorePaths:
     package.json,
     package-lock.json,
     source/_data,
+    secrets.yml,
   ]
 
 dictionaries: [custom-words, en-gb, python, cpp, data-science, softwareTerms]
