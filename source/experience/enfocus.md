@@ -1,7 +1,7 @@
 ---
-title: Summer Intern @ EnFocus
+title: Summer Intern @ enFocus
 ---
 
-<!-- cSpell:ignore enfocus -->
+<!-- cSpell:word enFocus -->
 
-Something here.
+Details will be included after the internship ends.

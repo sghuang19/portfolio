@@ -1,7 +1,7 @@
 ---
 date: 2023-06-04
 title: 180nm CMOS 4x4 Bit Array Multiplier Design
-tags: [project, hardware, digital-circuits]
+tags: [project, hardware, digital-circuits, electronics]
 ---
 
 Project for course SME306 _Advanced Digital CMOS IC Design_ in Spring 2023

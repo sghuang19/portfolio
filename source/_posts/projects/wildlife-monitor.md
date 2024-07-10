@@ -1,7 +1,7 @@
 ---
 date: 2024-04-29
 title: Wildlife Monitoring System with Raspberry Pi
-tags: [project, embedded-system, rpi, yolo, ml, python]
+tags: [project, embedded-system, rpi, yolo, ml, python, hardware]
 ---
 
 This project is for course CSE 40373 _Embedded System Development_ in 2024

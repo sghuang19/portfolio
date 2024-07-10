@@ -43,3 +43,4 @@ in sociology. political science, and problem solving.
 - I lived in [Keenan Hall](https://sites.nd.edu/keenan-hall/)!
 - Worked with [Dr. Douglas Thain](https://dthain.github.io) at the
   [Cooperative Computing Lab (CCL)](https://ccl.cse.nd.edu) during the summer.
+  See [this post](/cctools) for more details.

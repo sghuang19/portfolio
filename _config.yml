@@ -111,6 +111,7 @@ markdown:
     - markdown-it-task-lists
 alias:
   /projects: /tags/project
+  /resume/: /files/resume.pdf
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

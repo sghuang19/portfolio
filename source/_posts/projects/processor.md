@@ -1,7 +1,7 @@
 ---
 date: 2022-01-08
 title: ARMv3 Processor with Multiplier
-tags: [project, verilog, arm, assembly, hardware, processor]
+tags: [project, verilog, arm, assembly, hardware, processor, electronics]
 ---
 
 This post details my project for SME309 _Microprocessor Design_ in Fall 2021
