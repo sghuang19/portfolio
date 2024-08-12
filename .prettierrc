@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc",
-  "plugins": ["prettier-plugin-jinja-template"],
+  "plugins": ["prettier-plugin-jinja-template", "prettier-plugin-toml"],
   "overrides": [
     {
       "files": "*.njk",

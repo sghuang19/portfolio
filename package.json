@@ -6,8 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "server": "hexo server --config _config.yml,dev.yml",
-    "format": "prettier --check \"**.md\"",
-    "format:fix": "prettier --write \"**.md\"",
+    "format": "prettier --check --ignore-unknown .",
+    "format:fix": "prettier --write --ignore-unknown .",
     "lint": "markdownlint-cli2 \"**.md\"",
     "lint:fix": "markdownlint-cli2 --fix \"**.md\"",
     "spellcheck": "cspell \"**.md\"",
@@ -42,6 +42,7 @@
     "hexo-server": "^3.0.0",
     "markdownlint-cli2": "^0.13.0",
     "prettier": "^3.3.3",
-    "prettier-plugin-jinja-template": "^1.4.1"
+    "prettier-plugin-jinja-template": "^1.4.1",
+    "prettier-plugin-toml": "^2.0.1"
   }
 }
