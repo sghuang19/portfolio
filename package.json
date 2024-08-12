@@ -5,7 +5,9 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "server": "hexo server --config _config.yml,dev.yml"
+    "server": "hexo server --config _config.yml,dev.yml",
+    "format": "prettier --write \"./source/**/*.md\"",
+    "format:check": "prettier --check \"./source/**/*.md\""
   },
   "hexo": {
     "version": "7.3.0"

@@ -1,5 +1,6 @@
-_config*.yml
+# do not format default files
 scaffolds/draft.md
 scaffolds/page.md
 scaffolds/post.md
-custom-words.txt
+_config.yml
+_config.next.yml
