@@ -1,2 +1,3 @@
-# everything is detectable, this is not a codebase
+# all text files except SVG is detectable, this is not a codebase
 * linguist-detectable=true
+*.svg linguist-detectable=false
