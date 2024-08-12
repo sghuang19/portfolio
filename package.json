@@ -42,5 +42,8 @@
     "prettier-plugin-jinja-template": "^1.4.1",
     "prettier-plugin-packagejson": "^2.5.1",
     "prettier-plugin-toml": "^2.0.1"
+  },
+  "hexo": {
+    "version": "7.3.0"
   }
 }
