@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate --bail",
     "clean": "hexo clean",
     "dev": "hexo server --config _config.yml,dev.yml",
     "format": "prettier --check --ignore-unknown .",
