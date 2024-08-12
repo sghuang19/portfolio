@@ -1,7 +1,4 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "yaml.schemas": {
-    "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json": "file:///Users/sghuang/dev/sghuang19.github.io/source/_posts/old%20posts/Calculus%20II%20Review/markdownlint.yaml"
-  }
+  "editor.formatOnSave": true
 }
