@@ -117,5 +117,5 @@ alias:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:sghuang19/sghuang19.github.io.git
+  repo: git@github.com:sghuang19/portfolio.git
   branch: gh-pages
