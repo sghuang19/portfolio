@@ -4,6 +4,8 @@ title: ARMv3 Processor with Multiplier
 tags: [project, verilog, arm, assembly, hardware, processor, electronics]
 ---
 
+<!-- cSpell:words SMUL -->
+
 This post details my project for SME309 _Microprocessor Design_ in Fall 2021
 semester. In this project, I wrote a microprocessor that implements basic
 instructions of AMRv3 along with a multi-cycle multiplier. As a side-note, I

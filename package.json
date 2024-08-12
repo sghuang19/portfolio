@@ -6,8 +6,13 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "server": "hexo server --config _config.yml,dev.yml",
-    "format": "prettier --write \"./source/**/*.md\"",
-    "format:check": "prettier --check \"./source/**/*.md\""
+    "format": "prettier --check \"**.md\"",
+    "format:fix": "prettier --write \"**.md\"",
+    "lint": "markdownlint-cli2 \"**.md\"",
+    "lint:fix": "markdownlint-cli2 --fix \"**.md\"",
+    "spellcheck": "cspell \"**.md\"",
+    "spellcheck:fix": "cspell --fix \"**.md\"",
+    "test": "npm run lint && npm run spellcheck && npm run format"
   },
   "hexo": {
     "version": "7.3.0"
@@ -33,7 +38,9 @@
     "markdown-it-task-lists": "^2.1.1"
   },
   "devDependencies": {
+    "cspell": "^8.13.3",
     "hexo-server": "^3.0.0",
+    "markdownlint-cli2": "^0.13.0",
     "prettier": "^3.3.3",
     "prettier-plugin-jinja-template": "^1.4.1"
   }

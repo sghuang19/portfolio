@@ -5,6 +5,8 @@ tags: [markdown]
 permalink: markdown/
 ---
 
+<!-- markdownlint-disable emphasis-style -->
+
 是时候学一点Markdown了！
 
 ## 为什么要学习Markdown
@@ -141,9 +143,11 @@ VSCode原生支持Markdown文件的预览和语法高亮，通过插件可以在
 语句：
 
 ```json
-"markdownlint.config": {
-    "no-duplicate-heading": {"allow_different_nesting": true}
-},
+{
+  "markdownlint.config": {
+    "no-duplicate-heading": { "allow_different_nesting": true }
+  }
+}
 ```
 
 > Remark：只需要更改一个参数就行，注意语法，尤其是那个逗号。
@@ -157,9 +161,11 @@ markdownlint提供的另一个功能是根据这些规则自动格式化文档�
 在`settings.json`文件中添加语句：
 
 ```json
-"editor.codeActionsOnSave": {629976589629976589
+{
+  "editor.codeActionsOnSave": {
     "source.fixAll.markdownlint": true
-},
+  }
+}
 ```
 
 > Remark：这一段代码相当于对VSCode主体的设置，所以是写在`settings.json`文件的主
@@ -255,7 +261,7 @@ Markdown支持输入HTML转义字符
 {% code markdown %}
 
 ```json
-    "editor.codeActionsOnSave": { "source.fixAll.markdownlint": true },
+{ "editor.codeActionsOnSave": { "source.fixAll.markdownlint": true } }
 ```
 
 {% endcode %}
