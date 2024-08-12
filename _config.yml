@@ -110,7 +110,7 @@ markdown:
     - markdown-it-mark
     - markdown-it-task-lists
 alias:
-  /projects: /tags/project
+  /projects/: /tags/project
   /resume/: /files/resume.pdf
 
 # Deployment
