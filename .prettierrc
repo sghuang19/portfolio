@@ -1,4 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc",
+  "plugins": ["prettier-plugin-jinja-template"],
+  "overrides": [
+    {
+      "files": "*.njk",
+      "options": {
+        "parser": "jinja-template"
+      }
+    }
+  ],
   "proseWrap": "always"
 }
