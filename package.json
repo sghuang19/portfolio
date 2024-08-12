@@ -14,9 +14,6 @@
     "spellcheck:fix": "cspell --fix \"**.md\"",
     "test": "npm run lint && npm run spellcheck && npm run format"
   },
-  "hexo": {
-    "version": "7.3.0"
-  },
   "dependencies": {
     "hexo": "^7.3.0",
     "hexo-filter-nofollow": "^2.0.2",
@@ -43,6 +40,7 @@
     "markdownlint-cli2": "^0.13.0",
     "prettier": "^3.3.3",
     "prettier-plugin-jinja-template": "^1.4.1",
+    "prettier-plugin-packagejson": "^2.5.1",
     "prettier-plugin-toml": "^2.0.1"
   }
 }
