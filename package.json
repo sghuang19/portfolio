@@ -5,7 +5,7 @@
   "scripts": {
     "build": "hexo generate --bail",
     "clean": "hexo clean",
-    "dev": "hexo server --config _config.yml,dev.yml",
+    "dev": "hexo server --open --config _config.yml,_config.dev.yml",
     "format": "prettier --check --ignore-unknown .",
     "format:fix": "prettier --write --ignore-unknown .",
     "lint": "markdownlint-cli2 \"**.md\"",

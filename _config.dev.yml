@@ -1,0 +1,4 @@
+# disable related posts calculation in dev server for faster build
+theme_config:
+  related_posts:
+    enable: false
