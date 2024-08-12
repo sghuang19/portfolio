@@ -1,3 +1,2 @@
-$schema: https://github.com/DavidAnson/markdownlint-cli2/blob/main/schema/markdownlint-cli2-config-schema.json
-
+# extension has to be .yaml
 gitignore: true

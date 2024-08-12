@@ -1,0 +1,10 @@
+# must use .yml extension explicitly
+proseWrap: always
+plugins:
+  - prettier-plugin-jinja-template
+  - prettier-plugin-packagejson
+  - prettier-plugin-toml
+overrides:
+  - files: "*.njk"
+    options:
+      parser: jinja-template
