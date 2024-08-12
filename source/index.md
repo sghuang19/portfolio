@@ -17,10 +17,13 @@ Piano Player, and a Productivity Enthusiast.
 
 <center> {% btn /tags/project, Projects details, cogs fa-fw fa-lg %} </center>
 
+- I am developing a **full-stack web app** that gathers information from job
+  seekers via a WhatsApp chatbot and enables recruiters to filter and select the
+  candidates they need. (Ongoing)
+- I built a **React web app** to visualize the 64 Chinese hexagrams. (2024)
 - I conducted **data analysis** and built a **dashboard** for the biggest RV
   company in the world. (2024)
 - I wrote a [**compiler**](/compiler) with C from scratch. (2023)
-- I designed a 180nm two-stage CMOS [**amplifier**](/amp). (2022)
 - I wrote an ARMv3 [**microprocessor**](/processor) with a multi-cycle
   multiplier with Verilog. (2021)
 - I wrote a [**matrix arithmetics library**](/matrix) with Python. (2020)
@@ -31,24 +34,27 @@ Piano Player, and a Productivity Enthusiast.
 /experience, Details of positions held, briefcase fa-fw fa-lg
 %} </center>
 
-- Summer Intern (Data Analytics, Marketing) @ [enFocus](https://en-focus.org)
+- Software Engineer @ [Kinga Safety](https://kingasafety.com)
+- Summer Intern (Tech Consulting, Data Analytics) @
+  [enFocus](https://en-focus.org)
 - Co-Founder @ [Medouo](https://medouo.com)
-- IT Manager @ EcoGrains
-- Market Research Engineer @ [Blewbo](https://blewbo.com)
+- IT Advisor @ EcoGrains
+- Market Research Engineer (Business Development) @ [Blewbo](https://blewbo.com)
 - Visiting Research Student @
   [Cooperative Computing Lab (CCL)](http://ccl.cse.nd.edu) of
   [ND](https://nd.edu)
 
 ## Organizations
 
-|             Organization             |              Role               |
-| :----------------------------------: | :-----------------------------: |
-|   Graduate Student Government @ ND   | **Representative of CSE Dept.** |
-|   Graduate Ambassador Program @ ND   |         **Coordinator**         |
-| Graduate Orientation (GO) Team @ ND  |  **Resource Fair Team Member**  |
-|       Notre Dame Chorale @ ND        |  **First Tenor and Webmaster**  |
-|     Python User Group @ SUSTech      |  **Founder** and **Moderator**  |
-| School of Microelectronics @ SUSTech |   **Student Body President**    |
+|             Organization             |               Role                |
+| :----------------------------------: | :-------------------------------: |
+|   Graduate Student Government @ ND   |  **Representative of CSE Dept.**  |
+|   Graduate Ambassador Program @ ND   |          **Coordinator**          |
+| Graduate Orientation (GO) Team @ ND  |   **Resource Fair Team Member**   |
+|       Notre Dame Chorale @ ND        | **First Tenor** and **Webmaster** |
+|     Python User Group @ SUSTech      |   **Founder** and **Moderator**   |
+| School of Microelectronics @ SUSTech |    **Student Body President**     |
+|    Feng Hua Emcee Team @ SUSTech     |             **Emcee**             |
 
 ## Courses
 
