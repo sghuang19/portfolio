@@ -290,9 +290,9 @@ reward_settings:
   animation: false
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: /images/wechatpay.jpg
   #alipay: /images/alipay.png
-  #paypal: /images/paypal.png
+  paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
