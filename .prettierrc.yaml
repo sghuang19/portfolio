@@ -1,4 +1,4 @@
-# must use .yml extension explicitly
+# must use .yaml extension explicitly
 proseWrap: always
 plugins:
   - prettier-plugin-jinja-template
