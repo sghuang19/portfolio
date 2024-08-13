@@ -1,6 +1,6 @@
 # Samuel Huang's Portfolio
 
-<center>
+<section style="text-align: center;">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6d12ba74-37d0-43b7-b728-9feba59c1cf4/deploy-status)](https://app.netlify.com/sites/sghuang/deploys)
 
@@ -20,4 +20,12 @@ Proud graduate student of
 
 [![Notre Dame](https://upload.wikimedia.org/wikipedia/commons/f/f5/Notre_Dame_Fighting_Irish_logo.svg)](https://nd.edu)
 
-</center>
+</section>
+
+## Sidenotes
+
+- `package.yaml` config file of pnpm can't be used, since `hexo-cli` relies on
+  reading Hexo version from `package.json`.
+- `Markdownlin CLI2` does not accept `.yml` extension for its config file.
+- `pnpm` and `yarn` had unexpected behaviors when resolving dependencies for
+  some plugins.
