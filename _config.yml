@@ -112,10 +112,13 @@ markdown:
 alias:
   /projects/: /tags/project
   /resume/: /files/resume.pdf
+related_posts:
+  enable: true
+  icon: fa fa-signs-post
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:sghuang19/portfolio.git
-  branch: gh-pages
+#   type: git
+#   repo: git@github.com:sghuang19/portfolio.git
+#   branch: gh-pages
