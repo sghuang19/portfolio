@@ -5,6 +5,8 @@ permalink: art-pt1/
 title: 艺术鉴赏课程Pt.1 - 绘画鉴赏
 ---
 
+<!-- markdownlint-disable-file no-blanks-blockquote -->
+
 绘画的审美特征
 
 ## 写实的精确性
