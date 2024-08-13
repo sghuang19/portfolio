@@ -172,7 +172,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/sghuang19 || fab fa-github
-  E-Mail: mailto:samuel.g.huang@outlook.com || fa fa-envelope
+  E-Mail: mailto:hi@sghuang.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   X: https://twitter.com/SamuelGHuang || fab fa-x-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -182,7 +182,7 @@ social:
   #Skype: skype:yourname?call|chat || fab fa-skype
   LinkedIn: https://www.linkedin.com/in/samuel-g-huang/ || fab fa-linkedin
   Calendly: https://calendly.com/sghuang || fa fa-calendar
-  微信: / || fab fa-weixin
+  微信: /wechat || fab fa-weixin
 
 social_icons:
   enable: true
@@ -290,9 +290,9 @@ reward_settings:
   animation: false
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: /images/wechatpay.jpg
   #alipay: /images/alipay.png
-  #paypal: /images/paypal.png
+  paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
@@ -308,7 +308,8 @@ follow_me:
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
 related_posts:
-  enable: true
+  # can't be overridden by secondary config in dev, moved to _config.yml
+  enable: false
   icon: fa fa-signs-post
 
 # Post edit

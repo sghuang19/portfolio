@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate --bail",
     "clean": "hexo clean",
-    "server": "hexo server --config _config.yml,dev.yml",
+    "dev": "hexo server --open --config _config.yml,_config.dev.yml",
     "format": "prettier --check --ignore-unknown .",
     "format:fix": "prettier --write --ignore-unknown .",
     "lint": "markdownlint-cli2 \"**.md\"",
@@ -13,9 +13,6 @@
     "spellcheck": "cspell \"**.md\"",
     "spellcheck:fix": "cspell --fix \"**.md\"",
     "test": "npm run lint && npm run spellcheck && npm run format"
-  },
-  "hexo": {
-    "version": "7.3.0"
   },
   "dependencies": {
     "hexo": "^7.3.0",
@@ -43,6 +40,10 @@
     "markdownlint-cli2": "^0.13.0",
     "prettier": "^3.3.3",
     "prettier-plugin-jinja-template": "^1.4.1",
+    "prettier-plugin-packagejson": "^2.5.1",
     "prettier-plugin-toml": "^2.0.1"
+  },
+  "hexo": {
+    "version": "7.3.0"
   }
 }

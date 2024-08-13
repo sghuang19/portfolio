@@ -4,4 +4,7 @@ title: Software Engineer @ Kinga Safety
 
 <!-- cSpell:word Kinga -->
 
-Details will be included when I start this role.
+After my internship at [enFocus](/experience/enfocus.html) concluded, I
+continued collaborating with the Kinga team to redevelop the app using React
+Native. I have been serving in dual roles as both Software Engineer and Project
+Manager, and the project is still ongoing.

@@ -1,14 +1,8 @@
-$schema: https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json
-
-no-inline-html: false
-first-line-h1: false
 line-length:
-  code_blocks: false
+  code_blocks: false # catched by prettier
   tables: false
 no-duplicate-heading:
   siblings_only: true
-no-blanks-blockquote: false
-no-hard-tabs:
-  code_blocks: true
-  spaces_per_tab: 4
-no-bare-urls: false
+no-inline-html: false
+no-bare-urls: false # bare urls are needed in Nunjucks templates
+first-line-h1: false # h1's are replaced with title in front matter

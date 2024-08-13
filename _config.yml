@@ -110,12 +110,17 @@ markdown:
     - markdown-it-mark
     - markdown-it-task-lists
 alias:
+  # trailing slash is required, otherwise page is downloaded instead of opened
   /projects/: /tags/project
   /resume/: /files/resume.pdf
+  /wechat/: /images/wechat.jpg
+related_posts:
+  enable: true
+  icon: fa fa-signs-post
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:sghuang19/portfolio.git
-  branch: gh-pages
+#   type: git
+#   repo: git@github.com:sghuang19/portfolio.git
+#   branch: gh-pages
