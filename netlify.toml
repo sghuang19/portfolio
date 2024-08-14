@@ -1,6 +1,7 @@
 [build.environemnt]
 NODE_ENV = "production"
+BUN_FLAGS = "--production"
 
 [build]
-command = "npm run build"
+command = "bun run build"
 publish = "public"

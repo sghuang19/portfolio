@@ -12,7 +12,7 @@
     "lint:fix": "markdownlint-cli2 --fix \"**.md\"",
     "spellcheck": "cspell \"**.md\"",
     "spellcheck:fix": "cspell --fix \"**.md\"",
-    "test": "npm run lint && npm run spellcheck && npm run format"
+    "test": "bun run lint && bun run spellcheck && bun run format"
   },
   "dependencies": {
     "hexo": "^7.3.0",
@@ -43,7 +43,11 @@
     "prettier-plugin-packagejson": "^2.5.1",
     "prettier-plugin-toml": "^2.0.1"
   },
+  "packageManager": "bun@1.1.24",
   "hexo": {
     "version": "7.3.0"
-  }
+  },
+  "trustedDependencies": [
+    "hexo-word-counter"
+  ]
 }
