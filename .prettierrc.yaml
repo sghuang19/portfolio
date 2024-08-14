@@ -8,3 +8,6 @@ overrides:
   - files: "*.njk"
     options:
       parser: jinja-template
+  - files: "_config.yml"
+    options:
+      singleQuote: true

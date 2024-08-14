@@ -1,6 +1,0 @@
-# do not format default files
-scaffolds/draft.md
-scaffolds/page.md
-scaffolds/post.md
-_config.yml
-_config.next.yml
