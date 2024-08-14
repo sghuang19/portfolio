@@ -2,16 +2,17 @@
   "name": "portfolio",
   "version": "2.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "hexo generate --bail",
-    "clean": "hexo clean",
+    "clean": "hexo clean && rm -f db.json",
     "dev": "hexo server --open --config _config.yml,_config.dev.yml",
     "format": "prettier --check --ignore-unknown .",
-    "format:fix": "prettier --write --ignore-unknown .",
+    "format:fix": "bun run format -- --write",
     "lint": "markdownlint-cli2 \"**.md\"",
-    "lint:fix": "markdownlint-cli2 --fix \"**.md\"",
+    "lint:fix": "bun run lint -- --fix",
     "spellcheck": "cspell \"**.md\"",
-    "spellcheck:fix": "cspell --fix \"**.md\"",
+    "spellcheck:fix": "bun run spellcheck -- --fix",
     "test": "bun run lint && bun run spellcheck && bun run format"
   },
   "dependencies": {
