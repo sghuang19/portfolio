@@ -1,4 +1,5 @@
-dictionaries: [custom-words, en-gb, python, cpp, data-science, softwareTerms]
+dictionaries:
+  [custom-words, en-gb, python, python-common, cpp, data-science, softwareTerms]
 dictionaryDefinitions:
   - name: custom-words
     path: custom-words.txt
