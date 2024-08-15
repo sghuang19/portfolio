@@ -1,6 +1,5 @@
 [build.environemnt]
 NODE_ENV = "production"
-BUN_FLAGS = "--production"
 
 [build]
 command = "bun run build"
