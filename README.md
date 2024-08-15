@@ -22,11 +22,11 @@ Proud graduate student of
 
 </section>
 
-## Sidenotes
+## Side Notes
 
 - `package.yaml` config file of pnpm can't be used, since `hexo-cli` relies on
   reading Hexo version from `package.json`.
-- `Markdownlin CLI2` does not accept `.yml` extension for its config file.
+- `Markdownlint CLI2` does not accept `.yml` extension for its config file.
 - ~~`pnpm` and `yarn` had unexpected behaviors when resolving dependencies for
   some plugins.~~
 - After modifying dependencies in `hexo-related-posts`, package managers other
