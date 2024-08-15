@@ -1,18 +1,19 @@
 {
   "name": "portfolio",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "hexo generate --bail",
-    "clean": "hexo clean",
+    "clean": "hexo clean && rm -f db.json",
     "dev": "hexo server --open --config _config.yml,_config.dev.yml",
     "format": "prettier --check --ignore-unknown .",
-    "format:fix": "prettier --write --ignore-unknown .",
+    "format:fix": "bun run format -- --write",
     "lint": "markdownlint-cli2 \"**.md\"",
-    "lint:fix": "markdownlint-cli2 --fix \"**.md\"",
+    "lint:fix": "bun run lint -- --fix",
     "spellcheck": "cspell \"**.md\"",
-    "spellcheck:fix": "cspell --fix \"**.md\"",
-    "test": "npm run lint && npm run spellcheck && npm run format"
+    "spellcheck:fix": "bun run spellcheck -- --fix",
+    "test": "bun run lint && bun run spellcheck && bun run format"
   },
   "dependencies": {
     "hexo": "^7.3.0",
@@ -25,8 +26,9 @@
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-pangu": "^0.2.2",
-    "hexo-related-posts": "^1.5.2",
+    "hexo-related-posts": "github:sghuang19/hexo-related-posts#chore/update-dependencies",
     "hexo-renderer-markdown-it": "^7.1.1",
+    "hexo-renderer-pandoc": "^0.4.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-tag-embed": "^1.0.0",
     "hexo-tag-github-code": "^0.1.0",
@@ -43,7 +45,11 @@
     "prettier-plugin-packagejson": "^2.5.1",
     "prettier-plugin-toml": "^2.0.1"
   },
+  "packageManager": "bun@1.1.24",
   "hexo": {
     "version": "7.3.0"
-  }
+  },
+  "trustedDependencies": [
+    "hexo-word-counter"
+  ]
 }

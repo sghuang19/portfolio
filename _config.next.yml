@@ -10,6 +10,9 @@
 # ---------------------------------------------------------------
 
 # Allow to cache content generation.
+# ---------------------------------------------------------------
+# prettier directive must be immediately above code
+# prettier-ignore
 cache:
   enable: true
 
@@ -309,7 +312,7 @@ follow_me:
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
 related_posts:
   # can't be overridden by secondary config in dev, moved to _config.yml
-  enable: false
+  enable: true
   icon: fa fa-signs-post
 
 # Post edit
@@ -373,7 +376,7 @@ mobile_layout_economy: false
 theme_color:
   # default=#222
   light: "#177CB0"
-  dark: "#177CB0"  # 靛蓝
+  dark: "#177CB0" # 靛蓝
 
 # Override browsers' default behavior.
 body_scrollbar:

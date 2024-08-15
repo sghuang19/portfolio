@@ -3,11 +3,14 @@
 Thumbs.db
 db.json
 *.log
-node_modules/
-package-lock.json
 public/
 .deploy*/
 _multiconfig.yml
 
 # Local Netlify folder
 .netlify
+
+# Node environment
+node_modules/
+package-lock.json
+bun.lockb

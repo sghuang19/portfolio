@@ -114,9 +114,6 @@ alias:
   /projects/: /tags/project
   /resume/: /files/resume.pdf
   /wechat/: /images/wechat.jpg
-related_posts:
-  enable: true
-  icon: fa fa-signs-post
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

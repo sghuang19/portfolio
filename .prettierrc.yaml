@@ -1,4 +1,4 @@
-# must use .yml extension explicitly
+# must use .yaml extension explicitly
 proseWrap: always
 plugins:
   - prettier-plugin-jinja-template
@@ -8,3 +8,6 @@ overrides:
   - files: "*.njk"
     options:
       parser: jinja-template
+  - files: "_config.yml"
+    options:
+      singleQuote: true

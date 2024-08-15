@@ -2,5 +2,5 @@
 NODE_ENV = "production"
 
 [build]
-command = "npm run build"
+command = "bun run build"
 publish = "public"
