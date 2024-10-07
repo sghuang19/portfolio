@@ -1,4 +1,4 @@
-[build.environemnt]
+[build.environment]
 NODE_ENV = "production"
 
 [build]
