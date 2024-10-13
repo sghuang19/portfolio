@@ -24,7 +24,8 @@ in sociology. political science, and problem solving.
 - South Bend, IN
 - August 2023 ~ May 2025
 - GPA: 3.722/4.000
-- Tenor 1 at [Notre Dame Chorale](https://chorale.nd.edu)
+- Tenor 1 at [Notre Dame Chorale](https://chorale.nd.edu), Interim Chair of ACM
+  Student Chapter.
 
 ## B.E. @ SUSTech
 

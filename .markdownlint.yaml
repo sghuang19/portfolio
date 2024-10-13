@@ -1,5 +1,5 @@
 line-length:
-  code_blocks: false # catched by prettier
+  code_blocks: false # caught by prettier
   tables: false
 no-duplicate-heading:
   siblings_only: true
