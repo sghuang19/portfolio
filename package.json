@@ -39,7 +39,7 @@
   "devDependencies": {
     "cspell": "^8.15.1",
     "hexo-server": "^3.0.0",
-    "markdownlint-cli2": "^0.15.0",
+    "markdownlint-cli2": "^0.16.0",
     "prettier": "^3.3.3",
     "prettier-plugin-jinja-template": "^2.0.0",
     "prettier-plugin-packagejson": "^2.5.3",
