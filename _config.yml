@@ -114,6 +114,7 @@ alias:
   /projects/: /tags/project
   /resume/: /files/resume.pdf
   /wechat/: /images/wechat.jpg
+  /biz4eng/: https://notes.sghuang.com/courses/integrated-engineering-and-business-fundamentals
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
