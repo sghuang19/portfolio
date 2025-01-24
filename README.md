@@ -23,10 +23,9 @@ Proud graduate student of
 
 ## Side Notes
 
+- I am a member of the core team of [NexT theme](https://github.com/next-theme).
 - `package.yaml` config file of pnpm can't be used, since `hexo-cli` relies on
   reading Hexo version from `package.json`.
 - `Markdownlint CLI2` does not accept `.yml` extension for its config file.
-- After modifying dependencies in `hexo-related-posts`, package managers other
-  than `npm` can be used.
 - [Bun](https://bun.sh) is so fast! `hexo-word-counter` needs to be added into
   trusted dependencies, as its post installation script is required.
