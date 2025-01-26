@@ -111,6 +111,7 @@ menu:
   Projects: /tags/project || fa fa-cogs
   Experience:
     default: /experience/ || fa fa-briefcase
+    myTickets (2024-2025): mytickets.html
     Kinga (2024): kinga.html
     enFocus (2024): enfocus.html
     Blewbo (2023): blewbo.html
