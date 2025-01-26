@@ -45,7 +45,6 @@
     "prettier-plugin-packagejson": "^2.5.8",
     "prettier-plugin-toml": "^2.0.1"
   },
-  "packageManager": "bun@1.1.38",
   "hexo": {
     "version": "7.3.0"
   },
