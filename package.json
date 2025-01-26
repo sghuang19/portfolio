@@ -32,17 +32,17 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-tag-embed": "^1.0.0",
     "hexo-tag-github-code": "^0.1.0",
-    "hexo-theme-next": "^8.21.1",
+    "hexo-theme-next": "^8.22.0",
     "hexo-word-counter": "^0.2.0",
     "markdown-it-task-lists": "^2.1.1"
   },
   "devDependencies": {
-    "cspell": "^8.16.1",
+    "cspell": "^8.17.2",
     "hexo-server": "^3.0.0",
     "markdownlint-cli2": "^0.17.2",
     "prettier": "^3.4.2",
     "prettier-plugin-jinja-template": "^2.0.0",
-    "prettier-plugin-packagejson": "^2.5.6",
+    "prettier-plugin-packagejson": "^2.5.8",
     "prettier-plugin-toml": "^2.0.1"
   },
   "packageManager": "bun@1.1.38",
