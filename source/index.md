@@ -5,8 +5,10 @@ toc:
   enable: false
 ---
 
-I'm a Full-Stack Software Engineer, Product Manager, and an Entrepreneur. I'm
-also a Tenor, Piano Player, and a Productivity Enthusiast.
+I'm a Full-Stack Software Engineer, Project Manager, and an Entrepreneur. I'm
+also a Tenor, Piano Player, and a Productivity Enthusiast. My experience spans
+integrated circuits, software engineering, tech consulting, and startup
+advising.
 
 <center>
 {% btn /posts, Posts, scroll fa-fw fa-lg %}
@@ -17,10 +19,12 @@ also a Tenor, Piano Player, and a Productivity Enthusiast.
 
 <center> {% btn /tags/project, Projects, cogs fa-fw fa-lg %} </center>
 
+- I am developing [a new version of website](https://sustech-app.netlify.app)
+  for posts from my college alumni, using **Vue.js**. (Ongoing)
 - I am developing a **full-stack web app** that gathers information from job
   seekers via a WhatsApp chatbot and enables recruiters to filter and select the
-  candidates they need. -- We're going to Princeton for a pitch competition!
-  (Ongoing)
+  candidates they need. -- We were selected to be one of the top 3 startups in a
+  pitch competition at Princeton! (Ongoing)
 - I built a [**React web app**](https://hexagram.netlify.app) to visualize the
   64 Chinese hexagrams. (2024)
 - I conducted **data analysis** and built a **dashboard** for the biggest RV
@@ -28,8 +32,6 @@ also a Tenor, Piano Player, and a Productivity Enthusiast.
 - I wrote a [**compiler**](/compiler) with C from scratch. (2023)
 - I helped [**open a branch**](/experience/blewbo) in China for a global
   business. (2024)
-- I wrote an ARMv3 [**microprocessor**](/processor) with a multi-cycle
-  multiplier with Verilog. (2021)
 - I wrote a [**matrix arithmetics library**](/matrix) with Python. (2020)
 
 ## Experience
@@ -38,10 +40,12 @@ also a Tenor, Piano Player, and a Productivity Enthusiast.
 /experience, Details of positions held, briefcase fa-fw fa-lg
 %} </center>
 
+- Software Engineer | Fullstack @ [myTickets](https://mytickets.com)
 - Project Manager @ [Idea Center](https://ideacenter.nd.edu), Notre Dame
-- Product Manager & Software Engineer @ [Kinga Safety](https://kingasafety.com)
-- Summer Intern (Tech Consulting, Data Analytics) @
-  [enFocus](https://en-focus.org)
+- Student Recruiter @ [College of Engineering](https://engineering.nd.edu),
+  Notre Dame
+- Product Manager \& Software Engineer @ [Kinga Safety](https://kingasafety.com)
+- Summer Intern | Tech Consulting @ [enFocus](https://en-focus.org)
 - IT Advisor @ [EcoGrains](https://www.linkedin.com/company/ecograins)
 - Market Research Engineer @ [Blewbo](https://blewbo.com)
 - Visiting Research Student @
@@ -49,15 +53,15 @@ also a Tenor, Piano Player, and a Productivity Enthusiast.
 
 ## Organizations
 
-|             Organization             |              Role               |
-| :----------------------------------: | :-----------------------------: |
-|       ACM Student Chapter @ ND       |        **Interim Chair**        |
-|   Graduate Student Government @ ND   | **Representative of CSE Dept.** |
-| Graduate Orientation (GO) Team @ ND  |  **Resource Fair Team Member**  |
-|       Notre Dame Chorale @ ND        |   **Tenor 1** & **Webmaster**   |
-|     Python User Group @ SUSTech      |   **Founder** & **Moderator**   |
-| School of Microelectronics @ SUSTech |   **Student Body President**    |
-|    Feng Hua Emcee Team @ SUSTech     |            **Emcee**            |
+|               Organization               |              Role               |
+| :--------------------------------------: | :-----------------------------: |
+| Computer Club (ACM Student Chapter) @ ND |      **Interim President**      |
+|     Graduate Student Government @ ND     | **Representative of CSE Dept.** |
+|   Graduate Orientation (GO) Team @ ND    |  **Resource Fair Team Member**  |
+|         Notre Dame Chorale @ ND          |  **Tenor 1** \& **Webmaster**   |
+|       Python User Group @ SUSTech        |  **Founder** \& **Moderator**   |
+|   School of Microelectronics @ SUSTech   |   **Student Body President**    |
+|      Feng Hua Emcee Team @ SUSTech       |            **Emcee**            |
 
 ## Courses
 
@@ -102,7 +106,7 @@ different areas, notably:
 
 {% endnote %}
 
-- **Philosophy**: Plato, Aristotle, Mencius, Wang Yangming, and Zen
+- **Philosophy**: Plato, Aristotle, Mencius, Wang Yangming, and Zen Buddhism
 - **Psychology**
 - **Productivity**, see a list of my tools at {% btn /productivity,
-  Productivity, hammer fa-fw fa-lg %}
+  Productivity, hammer fa-fw fa-lg %}, and this [note](/biz4eng) I took.
